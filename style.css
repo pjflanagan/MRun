@@ -1,0 +1,286 @@
+body {
+  padding-top: 45px;
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat";
+}
+::-moz-selection {
+    color: #000;
+    background: #ffcb05;
+}
+::selection {
+    color: #000; 
+    background: #ffcb05;
+}
+iframe#splash {
+  position: fixed;
+  width:100%;
+  height: 580px;
+  overflow:hidden;
+  left: 0;
+  border: none;
+}
+
+/*    NAVBAR    */
+.navbar {
+  background: rgba(0,39,76,.95);
+  border-bottom: none;
+}
+.navbar-toggle { background: #ffcb05; }
+#navbar ul li a{
+  color:#ffcb05;
+  text-transform: uppercase;
+  -webkit-transition:background .2s, color .2s;
+  -moz-transition:background .2s, color .2s;
+  -o-transition:background .2s, color .2s;
+  transition:background .2s, color .2s;
+}
+#navbar ul li.dropdown ul li a{ color:#ffcb05; }
+#navbar ul li a:hover{ color:#FFF; }
+.navbar-header a.navbar-brand{ color:#ffcb05; }
+#navbar ul li.active a { color:#FFF; }
+#navbar ul li.active ul li.active a { background: #00071c; color:#FFF;}
+
+.dropdown-menu {
+  background: #00274c;
+}
+.dropdown-menu li a:hover{
+  background: #000;
+}
+.lead , .carousel-caption p {
+  font-family: "Oleo Script";
+}
+.carousel-caption h1 {
+  text-transform: uppercase;
+}
+.btn {
+  padding: 14px 24px;
+  margin:10px 0 0 10px;
+  border: 0 none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: #ffcb05;
+  font-family: "Montserrat";
+  color: #010817;
+  width: 240px;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: 0 none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+  background: #00274c;
+}
+.btn-primary:active, .btn-primary.active {
+  background: #00274c;
+  box-shadow: none;
+}
+.stripes {
+  background:url(icons/stripes.png);
+  background-size:auto;
+  width:100%;
+  position:absolute;
+  margin-top:-100px;
+}
+.newsletters {
+  margin-top: 20px;
+}
+.newsletters .title {
+  text-align: center;
+  background: #00274c;
+  font-family: "Montserrat";
+  color: #ffcb05;
+}
+.year {
+  text-align: center;
+  background: #DDD;
+}
+.btn.dropdown-toggle {
+  width:96%;
+  margin-left:2%;
+}
+ul.newsletter.dropdown-menu{
+  width:94%;
+  margin-left:3%;
+  position:absolute;
+  top:45px;
+}
+.dropdown-menu > li > a {
+  color:#FFF;
+}
+.dropdown-menu > li.disabled:hover {
+  cursor: pointer;
+}
+.row.profile {
+  width:96%;margin-left:2%;
+}
+.row.profile img {
+  width:100%; border-radius: 5px;
+  margin-top: 20px;
+}
+.row.profile h1 {
+  text-align:center;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: bold;
+}
+.row.profile h2 {
+  text-align:center;
+  font-family: "Oleo Script";
+  margin-top: -10px;
+}
+a:hover {
+  text-decoration: none;
+}
+.link {
+  width:100%;
+  background: #ffcb05;
+  height: 35px;
+  text-align: center;
+  padding-top: 7px;
+  font-family: "Montserrat";
+  color: #000;
+  font-weight: bold;
+  margin-top:7px;
+  border-radius: 4px;
+
+  -webkit-transition:background .2s, color .2s;
+  -moz-transition:background .2s, color .2s;
+  -o-transition:background .2s, color .2s;
+  transition:background .2s, color .2s;
+}
+.link:hover {
+  text-decoration: none;
+  background: #00274c;
+  color: #FFF;
+}
+.link .glyphicon.link-icon{
+  float: left;
+  width: 28px;
+  color: #aa7c02;
+  margin-top: 2px;
+  margin-left: 6px;
+  border-right:1px solid #aa7c02;
+  margin-right: -30px;
+}
+.link:hover .glyphicon.link-icon {
+  color: #FFF;
+  border-right:1px solid #FFF;
+}
+
+.marketing .col-lg-2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-2 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.q {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.row.icons {
+  text-align: center;
+}
+a h2, a p{
+  color:#00274c;
+}
+a:hover h2, a:hover p{
+  color:#00071c;
+}
+.row.profile.contact h1 {
+  margin-top:-48px;
+  color:#FFF;
+  text-shadow: 0px 2px 8px #000000;
+}
+.row.profile.contact h2 {
+  color:#FFF;
+  text-shadow: 0px 2px 12px #000000;
+}
+
+iframe#schedule {
+  height:420px;
+  width:100%;
+  overflow: scroll;
+  /*border: none;*/
+}
+
+.article h1 {
+  text-transform: uppercase;
+}
+
+table.article-bar {
+  width:100%;
+  background: #00274c;
+  height: 35px;
+  text-align: center;
+  padding-top: 7px;
+  font-family: "Montserrat";
+  color: #FFF;
+  font-weight: bold;
+  margin-top:7px;
+  border-radius: 4px;
+}
+table.article-bar tr {
+  width:100%;
+  border-radius: 4px;
+}
+.article-bar .link {
+  border-radius: 0px;
+}
+.article-bar .link-prev {
+  margin-top:0px;
+  padding-top: 8px;
+  width: 35px;
+  left:0;
+  float:left;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.article-bar .link-next {
+  margin-top:0px;
+  width: 35px;
+  float:right;
+  padding-top: 8px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.article-bar.mid {
+  width:100%;
+}
+.article-bar a.dead .link-next, .article-bar a.dead .link-prev {
+  background: #00274c;
+  color: #FFF;
+  cursor: default;
+}
+
+.letter {
+  width:100%;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: solid 1px #DDD;
+  margin-bottom:8px;
+}
+.stamp {
+  width: 40px;
+  height: 40px;
+  background-image: url('community_service/RAM_shirt.png');
+  background-repeat: no-repeat;
+  background-position: top right; 
+  background-size: 100%;
+  position: absolute;
+  margin-top: -16px;
+  right:20px;
+  border: dotted 2px rgb(120,241,154);
+}
+
+nav .dropdown.active.open .dropdown-menu {
+  background: rgba(0,39,76,.95);
+}

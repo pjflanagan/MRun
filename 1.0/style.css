@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    background: #fcf1d9;
+}
+
+a {
+    color: #1c205e;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px dotted #aa925d;
+}
+
+a:hover {
+    border-bottom: 1px solid #aa925d;
+    color: #333877;
+}
+
+/* Remove border on lightbox links */
+#lightbox a {
+    border: none;
+}
+
+#topstrip {
+    min-width: 980px;
+    width: 100%;
+    height: 180px;
+    background: #0D0E20;
+    text-align: center;
+}
+
+#banner {
+    margin-top: 20px;
+}
+
+nav {
+    overflow: hidden;
+    border-bottom: 1px solid #f2e4c6;
+    min-width: 980px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+nav ul li {
+    float: left;
+    position: relative;
+    right: 50%;
+    margin: 0 2px;
+    padding: 20px 10px;
+}
+
+nav ul li a {
+    display: block;
+    color: #aa925d;
+    text-decoration: none;
+    font: small-caps 1.5em 'Open Sans', arial;
+    text-transform: lowercase;
+    text-shadow: -1px -1px 0 #eee, 1px 1px 0 #fff;
+    border: none;
+}
+
+nav ul li a:hover {
+    color: #c1a66a;
+    border: none;
+}
+
+#content {
+    width: 900px;
+    margin: 25px auto;
+    background: url('http://mrun.clubrunning.org/images/bodygradient.png') repeat-x #fdf8ec;
+    padding: 0 40px 40px;
+}
+
+#content h1 {
+    text-align: left;
+    font: 300 1.8em 'Open Sans', arial;
+    color: #1c205e;
+}
+
+#content {
+    color: #333;
+    font: normal 0.9em/2em arial;
+    overflow: hidden;
+}
+
+#sidebar {
+    float: right;
+    width: 25%;
+    margin-top: 5px
+}
+
+#sidebar h1 {
+    font-size: 1.5em
+}
+
+a.follow {
+	border: none;
+}
+
+ul.sidebarLinks {
+    list-style: none;
+    padding: 0;
+}
+
+ul.sidebarLinks li a{
+    display: block;
+    border: none;
+    background: #f9eaca;
+    color: #6d6554;
+    margin: 5px 0;
+    padding: 5px 0 5px 20px;
+    font-weight: normal;
+    font-size: 1.1em;
+    font-family: 'Open Sans', arial;
+}
+
+ul.sidebarLinks li a:hover {
+    background: #fce9bf;
+}
+
+#content h2 {
+    font: italic normal 1.2em 'Open Sans', arial;
+    color: #43435b;
+}
+
+#main {
+    float: left;
+    width: 70%;
+}
+
+/*#main h2 {
+    text-align: center;
+}*/
+
+footer {
+    text-align: center;
+    background: #0D0E20;
+    color: #FAC322;
+    padding: 15px 0;
+    font: .8em 'Open Sans', arial;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    min-width: 980px;
+}
+
+footer p {
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid #43435b;
+    text-align: center;
+    padding: 2px;
+}
+
+table th.date {
+    width: 100px;
+}
+
+table.officers td {
+    border: none;
+}
+
+table.officers tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table.officers td {
+	vertical-align: top;
+}
+
+table.officers td.bio {
+    text-align: left;
+    padding-left: 50px;
+}
+
+table.officers img {
+    max-width: 200px;   
+}
+
+#slideshow {
+	position: relative;
+	height: 221px;
+}
+
+#slideshow img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+}
+
+#slideshow img.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow img.last-active {
+    z-index:9;
+}
