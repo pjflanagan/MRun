@@ -7,8 +7,8 @@
 <div class="row profile">
   <div class="col-md-3">
     <img width="100%" src="community_service/RAM.jpg" style="border-radius:5px;" />
-    <h1 style="text-align:center;">Race Across Michigan</h1>
-    <p>The Race Across Michigan (RAM) is an annual event held by the University of Michigan Running Club (MRun) to raise money for the Special Olympics. The runners start at 6:00 in the morning on the Detroit river, and they take turns running the 182 miles across the state of Michigan. The runners will run a total of nearly 24 hours to finish in South Haven, on the coast of Lake Michigan. Leading up to the event, the participants engage with Special Olympics athletes and raise donations for Special Olympics Michigan to support this incredible organization.</p>
+    <a href="/ram"><h1 style="text-align:center;">Race Across Michigan</h1></a>
+    <p>The Race Across Michigan (RAM) is an annual event held by the University of Michigan Running Club (MRun) to raise money for the Special Olympics. The runners start at 6:00 in the morning on the Detroit river, and they take turns running the 184 miles across the state of Michigan. The runners will run a total of nearly 24 hours to finish in South Haven, on the coast of Lake Michigan. Leading up to the event, the participants engage with Special Olympics athletes and raise donations for Special Olympics Michigan to support this incredible organization.</p>
     <p>If you want to donate by cash or check, make checks payable to "Special Olympics"</p>
     <div class="letter">
       <div class="stamp"></div>

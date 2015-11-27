@@ -83,7 +83,7 @@
             </span>
           </div><!-- /.col-lg-4 -->
         </a>
-        <a target="_blank" href="https://docs.google.com/spreadsheets/d/1QD2G4O96Aer_HkpGbJFw7GlzDlsqz-XvsVSf0P5fWQE/edit?usp=sharing">
+        <a target="_blank" href="https://docs.google.com/spreadsheets/u/1/d/1QD2G4O96Aer_HkpGbJFw7GlzDlsqz-XvsVSf0P5fWQE/edit?usp=sharing">
           <div class="col-lg-2 col-xs-6">
             <img class="img-circle" src="icons/records.png" alt="Records" width="140" height="140">
             <span class="hidden-xs">
@@ -92,18 +92,19 @@
             <span class="hidden-xs">
           </div><!-- /.col-lg-4 -->
         </a>
-        <?php 
-          $re = "/href=\"(.+)\"(?=.+<\!--MOST RECENT-->)/i";
-          $str = file_get_contents("results.html");
-          preg_match($re, $str, $matches);
-          $href = $matches[1];
-          echo "<a target='_blank' href='" . $href . "'>\n"; 
-        ?>
+        <!--<?php 
+          //$re = "/href=\"(.+)\"(?=.+<\!--MOST RECENT-->)/i";
+          //$str = file_get_contents("results.html");
+          //preg_match($re, $str, $matches);
+          //$href = $matches[1];
+          //echo "<a target='_blank' href='" . $href . "'>\n"; 
+        ?>-->
+        <a href="http://goo.gl/forms/IjQurR8nbY" target="_blank">
           <div class="col-lg-2 col-xs-6">
             <img class="img-circle" src="icons/results.png" alt="Results" width="140" height="140">
             <span class="hidden-xs">
-              <h2>Results</h2>
-              <p>Link to our most recent event</p>
+              <h2>Submit</h2>
+              <p>Submit records here!</p>
             </span>
           </div><!-- /.col-lg-4 -->
         </a>
@@ -145,3 +146,8 @@
 
 
 <?php include "footer.php" ?>
+
+
+<!--
+<iframe src="https://docs.google.com/a/umich.edu/forms/d/1cNP2GYGgZsYtd9iUiRWG-eIz6tqt4DI-mxqxrKa4a4k/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  -->

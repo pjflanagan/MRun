@@ -1,9 +1,8 @@
-#xc 2014
-/Sept 27 MC5\
-/Oct 4 Spartan Grand Classic\
-/Oct 18 Little Tens Invitational\
-/Nov 1 NIRCA Great Lakes Regional Champs\
-/Nov 15 NIRCA National Championships\
+#xc 2015
+/Sept 26 MC5\
+/Oct 10 Spartan Grand Classic\
+/Oct 24 NIRCA Great Lakes Regional Champs\
+/Nov 14 NIRCA National Championships\
 
 #tf 2015
 /Jan 31 SVSU Jet's Pizza Invitational\
@@ -14,11 +13,19 @@
 
 #prospective 2015
 /Sep 21 8PM Mass Meeting @ Pendleton Ballroom (Union)\
-/Mon-Fri 4:15PM Practice @ CCRB
+/Mon, Wed, Fri 4:15PM Practice @ CCRB\
+/Tue 8:30PM Workout @ Ferry Field\
+/Thurs 4:15 Workout @ CCRB\
 
 #current 2015
-/Jul 14 2:30PM Tigers Game\
-/Aug 27-30 MRun Camp\
+/Sept 11 Ice Cream Social\
 /Sep 21 8PM Mass Meeting @ Pendleton Ballroom (Union)\
+/Sep 23 Running Fit Night\
+/Oct 4 Cider Mill Run\
+/Oct 24 Corn Maze\
+/Oct 29 Halloween Run\
+/Nov 17 Chocolate Milk 4x4\
+/Dec 4 Doba Challenge\
+/Dec 18 Holiday Party\
 
 #

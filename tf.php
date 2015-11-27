@@ -25,7 +25,7 @@
     <div class="row">
       <div class="newsletters col-md-4">
         <ul class="list-group">
-          <a target="_blank" href="https://www.google.com/calendar/embed?src=mrunclub%40gmail.com&ctz=America/New_York">
+          <a target="_blank" href="https://www.google.com/calendar/embed?src=umich.edu_d68unhtrpcd92fsubuo4p8d43c%40group.calendar.google.com&ctz=America/New_York">
             <li class="list-group-item title">
               SCHEDULE <?php echo $matches[2]; ?>
             </li>

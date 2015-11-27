@@ -64,7 +64,7 @@
           <li id="community" class="hidden-sm"><a href="community.php">Community Service</a></li>
       
           <li id="community" class="visible-sm"><a href="community.php">Service</a></li>
-      
+          
           <li id="sponsors"><a href="sponsors.php">Sponsors</a></li>
       
           <li id="contact"><a href="contact.php">Contact</a></li>

@@ -21,7 +21,7 @@ $curr = $files[$fileIndex];
 $next_class = ($next=="#") ? "dead" : "";
 $prev_class = ($prev=="#") ? "dead" : "";
 
-$months = array("January","February","March","April","May","June","July","August","September","October","November","December");
+$months = array("January","February","March","April","Summer","Summer","Summer","Summer","September","October","November","December");
 
 $day = substr($curr,8,2);
 $day = (substr($day,0,1)=="0") ? substr($day,1,1) : $day;
