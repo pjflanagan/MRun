@@ -4,28 +4,29 @@
 /Oct 24 NIRCA Great Lakes Regional Champs\
 /Nov 14 NIRCA National Championships\
 
-#tf 2015
+#tf 2016
 /Jan 31 SVSU Jet's Pizza Invitational\
 /Feb 14 Happy Valley Invitational\
 /Feb 28 Illinois Club Relays\
 /Apr 11  NIRCA National Championships\
 /Apr 23-25 Hillsdale Gina Relays\
 
-#prospective 2015
+#prospective 2016
 /Sep 21 8PM Mass Meeting @ Pendleton Ballroom (Union)\
 /Mon, Wed, Fri 4:15PM Practice @ CCRB\
-/Tue 8:30PM Workout @ Ferry Field\
-/Thurs 4:15 Workout @ CCRB\
+/Tue 9PM Practice @ Indoor Track\
+/Thu 7PM Practice @ Indoor Track\
 
-#current 2015
-/Sept 11 Ice Cream Social\
-/Sep 21 8PM Mass Meeting @ Pendleton Ballroom (Union)\
-/Sep 23 Running Fit Night\
-/Oct 4 Cider Mill Run\
-/Oct 24 Corn Maze\
-/Oct 29 Halloween Run\
-/Nov 17 Chocolate Milk 4x4\
-/Dec 4 Doba Challenge\
-/Dec 18 Holiday Party\
+#current 2016
+/Jan 31 7PM RAM Mass Meeting @ Parker Room (Union)\
+/Feb 6 Superb Owl @ Danger Zone & BBQ Fundraiser\
+/Feb 11 6PM Special Olympics Practice\
+/Feb 19 6PM Polar Plunge\
+/Feb 25 6PM Special Olympics Practice\
+/Mar 10 6PM Special Olympics Practice\
+/Mar 11 or 12 Pong Tourney @ Danger Zone\
+/Mar 14 8PM Debrief Meeting @ Room 4 (League)\
+/Mar 19-20 RAM\
+
 
 #
